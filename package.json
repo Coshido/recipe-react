@@ -2,6 +2,7 @@
   "name": "recipe-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Coshido.github.io/recipe-react",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
