@@ -8,10 +8,10 @@ function Pages() {
   return (
     <div>
       <Routes>
-        <Route path="/recipe-react/" element={<Home />} />
-        <Route path="/recipe-react/cuisine/:type" element={<Cusine />} />
-        <Route path="/recipe-react/searched/:search" element={<Searched />} />
-        <Route path="/recipe-react/recipe/:name" element={<Recipe />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/cuisine/:type" element={<Cusine />} />
+        <Route path="/searched/:search" element={<Searched />} />
+        <Route path="/recipe/:name" element={<Recipe />} />
       </Routes>
     </div>
   );

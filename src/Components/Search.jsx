@@ -9,7 +9,7 @@ function Search() {
 
   const submitHandle = (e) => {
     e.preventDefault();
-    navigate("/recipe-react/searched/" + input);
+    navigate("/searched/" + input);
   };
 
   return (

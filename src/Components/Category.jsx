@@ -8,19 +8,19 @@ import React from "react";
 function Category() {
   return (
     <List>
-      <StyledLink to={"/recipe-react/cuisine/Italian"}>
+      <StyledLink to={"/cuisine/Italian"}>
         <FaPizzaSlice />
         <h4>Italian</h4>
       </StyledLink>
-      <StyledLink to={"/recipe-react/cuisine/American"}>
+      <StyledLink to={"/cuisine/American"}>
         <FaHamburger />
         <h4>American</h4>
       </StyledLink>
-      <StyledLink to={"/recipe-react/cuisine/Thai"}>
+      <StyledLink to={"/cuisine/Thai"}>
         <GiNoodles />
         <h4>Thai</h4>
       </StyledLink>
-      <StyledLink to={"/recipe-react/cuisine/Japanese"}>
+      <StyledLink to={"/cuisine/Japanese"}>
         <GiChopsticks />
         <h4>Japanese</h4>
       </StyledLink>

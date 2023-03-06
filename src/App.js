@@ -1,6 +1,6 @@
 import Pages from "./Pages/Pages";
 import Category from "./Components/Category";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import Search from "./Components/Search";
 import styled from "styled-components";
 import { GiKnifeFork } from "react-icons/gi";
@@ -9,10 +9,10 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/recipe-react">
         <Nav>
           <GiKnifeFork />
-          <Logo to={"/recipe-react/"}>Yummy Recipes</Logo>
+          <Logo to={"/"}>Yummy Recipes</Logo>
         </Nav>
         <Search />
         <Category />
@@ -29,7 +29,7 @@ const Logo = styled(Link)`
   font-family: "Lobster Two", cursive;
 `;
 const Nav = styled.div`
-  padding: 4rem 0rem;
+  padding: 1rem 0rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
