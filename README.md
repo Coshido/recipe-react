@@ -2,7 +2,7 @@
 
 <blockquote>
 
-<li><a href="https://coshido.github.io/Weather-App/" target="_blank" rel="nofollow">Live Demo</a></li>
+<li><a href="https://coshido.github.io/recipe-react//" target="_blank" rel="nofollow">Live Demo</a></li>
 
 </blockquote>
 
@@ -17,4 +17,3 @@ This is an application that get recipe data from an API and display it in a mean
 <li><a href="https://react-icons.github.io/react-icons/" target="_blank" rel="nofollow">React Icons</a></li>
 <li><a href="https://spoonacular.com/food-api" target="_blank" rel="nofollow">Spoonacular API</a></li>
 <li><a href="https://styled-components.com/" target="_blank" rel="nofollow">Styled Components</a></li>
-
