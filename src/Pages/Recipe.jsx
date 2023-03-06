@@ -61,6 +61,7 @@ const DetailWrapper = styled.div`
   margin-top: 10rem;
   margin-bottom: 5rem;
   display: flex;
+  justify-content: space-between;
   .active {
     background: linear-gradient(35deg, #494949, #313131);
     color: white;
@@ -69,11 +70,16 @@ const DetailWrapper = styled.div`
     margin-bottom: 2rem;
   }
   li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2.5rem;
+    font-weight: 500;
   }
   ul {
     margin-top: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 500;
   }
 `;
 
