@@ -1,6 +1,6 @@
 import Pages from "./Pages/Pages";
 import Category from "./Components/Category";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Search from "./Components/Search";
 import styled from "styled-components";
 import { GiKnifeFork } from "react-icons/gi";
